@@ -1,0 +1,33 @@
+.header {
+  background-color: #455A64;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.header nav {
+  width: 100%;
+}
+
+.ulNav {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  list-style: none;
+}
+
+.ulNav li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.ulNav li a:hover {
+  color: #9e9d9d;
+  transition: 0.3s;
+}
